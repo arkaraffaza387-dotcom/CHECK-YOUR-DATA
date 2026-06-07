@@ -27,7 +27,7 @@
 
 <div class="card">
   <h2>Cek Status Pendaftaran</h2>
-  <input type="email" id="emailInput" placeholder="Masukkan Email (contoh: amba@gmail.com)">
+  <input type="email" id="emailInput" placeholder="Masukkan Email...">
   <button onclick="cekStatus()">CEK SEKARANG</button>
   
   <div id="errorMsg" class="error">Email tidak ditemukan!</div>
@@ -56,6 +56,18 @@
       nama: "AZFER.ID",
       vertika: "BERHASIL",
       status: "ADMIN + OWNER"
+    },
+    {
+      email: "admin1@gmail.com",
+      nama: "JASTEB ADMIN",
+      vertika: "GAGAL",
+      status: "GAGAL"
+    },
+    {
+      email: "admin2@gmail.com",
+      nama: "ARKA GAMES",
+      vertika: "BERHASL",
+      status: "ADMIN"
     }
   ];
 
